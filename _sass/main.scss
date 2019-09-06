@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+// Customization
+
+// You can easily customize Bulma with your own variables.
+// Just uncomment the following block to see the result.
+
+/*
+// 1. Import the initial variables
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+
+// 2. Set your own initial variables
+// Update the blue shade, used for links
+$blue: #06bcef;
+// Add pink and its invert
+$pink: #ff8080;
+$pink-invert: #fff;
+// Update the sans-serif font family
+$family-sans-serif: "Helvetica", "Arial", sans-serif;
+
+// 3. Set the derived variables
+// Use the new pink as the primary color
+$primary: $pink;
+$primary-invert: $pink-invert;
+
+// 4. Import the rest of Bulma
+*/
+
+@import "../node_modules/bulma/bulma";
+
+// Custom changes
+
+header {
+    margin: 2rem auto;
+
+    img {
+        height: 36px;
+    }
+}
+
+.hero-body {
+    p {
+        margin-bottom: 1.25rem;
+    }
+
+    ul {
+        margin-bottom: 1.25rem;
+        padding-left: 20px;
+
+        li {
+            list-style: disc;
+            
+        }
+    }
+}
+
+.main {
+    margin: 3rem auto;
+}
+
+.main-text {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.bullet {
+    padding: 1.5rem 0;
+}
+
+.bullet-bg {
+    background-color: #3f4d55;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 2rem;
+    position: relative;
+
+    img {
+        max-height: 40px;
+        max-width: 40px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.ebook-img {
+    max-width: 90%;
+    margin-left: 50px;
+}
+
+.main-cta {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.stats {
+    background-color: #2e2f3a;
+    color: white;
+    padding: 3.75rem 0;
+
+    h3 {
+        margin-bottom: 3.75rem;
+    }
+
+    p {
+        margin-top: 1rem;
+    }
+}
+
+.icon-logo {
+    max-height: 40px;
+    max-width: 40px;
+    display: block;
+    margin: 0 auto 1.2rem;
+}
