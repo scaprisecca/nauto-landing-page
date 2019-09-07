@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My first Bulma website</title>
     <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/12d1abcabc.js"></script>
   </head>
   <body>
     
@@ -15,32 +16,77 @@
 
     <section class="hero">
       <div class="hero-body">
-        <div class="container">
-          <div class="columns">
-            <div class="column is-6">
-              <h1 class="is-size-1">How to Reduce Fleet Collisions in 4 Ways</h1>
-              <p>Learn how you can:</p>
-              <ul>
-                <li>Reduce fleet collisions</li>
-                <li>Coach high-risk drivers</li>
-                <li>Incetivize driver safety</li>
-              </ul>
-              <p>This free eBook gives you the 4 steps you need to improve safety in your fleet. Fleets who followed these 4 steps reduced insurance claims by 35%. You can too.</p>
-            </div>
+        <div class="shadow-layer">
+          <div class="container">
+              <div class="columns is-desktop">
+                <div class="column is-7 has-text-white-ter">
+                  <h1>How to Reduce Fleet Collisions in 4 Ways</h1>
+                  <p>Learn how you can:</p>
+                  <ul>
+                    <li>Reduce fleet collisions</li>
+                    <li>Coach high-risk drivers</li>
+                    <li>Incetivize driver safety</li>
+                  </ul>
+                  <p>This free eBook gives you the 4 steps you need to improve safety in your fleet. Fleets who followed these 4 steps reduced insurance claims by 35%. You can too.</p>
+                </div>
+    
+                <div class="column is-5">
+                  <div class="form">
+                    <p class="is-size-3 has-background-success has-text-centered has-text-white-ter">Download the Fleet Safety<br>eBook Now</p>
+    
+                    <div class="columns">
+                      <div class="column is-5 is-offset-1">
+                        <div class="field">
+                          <label for="fname" class="label">First Name*</label>
+                          <div class="control">
+                            <input type="text" id="fname" name="fname" class="input">
+                          </div>
+                        </div>
+                        <div class="field">
+                          <label for="email" class="label">Email*</label>
+                          <div class="control">
+                            <input type="email" name="email" id="email" class="input">
+                          </div>
+                        </div>
+                        <div class="field">
+                          <label for="company-name" class="label">Company Name*</label>
+                          <div class="control">
+                            <input type="text" id="company-name" name="company-name" class="input">
+                          </div>
+                        </div>
+                      </div>
+                      <!--Right form column-->
+                      <div class="column is-5">
+                        <div class="field">
+                          <label for="lname" class="label">Last Name*</label>
+                          <div class="control">
+                            <input type="text" id="lname" name="lname" class="input">
+                          </div>
+                        </div>
+                        <div class="field">
+                          <label for="phone" class="label">Phone Number*</label>
+                          <div class="control">
+                            <input type="number" name="phone" id="phone" class="input">
+                          </div>
+                        </div>
+                        <div class="field">
+                          <label for="fleet-size" class="label">Company Fleet Size*</label>
+                          <div class="control">
+                            <input type="text" name="fleet-size" id="fleet-size" class="input">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
 
-            <div class="column is-6">
-              <div class="form">
-                <p class="is-size-3 has-background-success has-text-centered has-text-white-ter">Download the Fleet Safety<br>eBook Now</p>
-
-                <div class="field">
-                  <label for="fname" class="label">First Name*</label>
-                  <div class="control">
-                    <input type="text" id="fname" name="fname" class="input">
+                    <div class="level">
+                      <div class="level-item">
+                        <button class="button is-fullwidth is-success is-medium">Download eBook</button>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
         </div>
       </div>
     </section>
@@ -120,6 +166,82 @@
         </div>
       </div>
     </section>
+
+    <section class="customers is-large">
+      <div class="container is-centered">
+        <h3 class="has-text-centered is-size-4 has-text-weight-medium">Our Customers</h3>
+        <p class="has-text-centered has-text-weight-medium">Working with customers of all sizes and across multiple industries to<br> enable safer and smarter fleets.</p>
+
+        <!-- <div class="level customer-logos">
+          <div class="level-item">
+              <img src="./images/allegiant-gray.png" alt="Allegiant logo">
+          </div>
+          <div class="level-item">
+              <img src="./images/delivery-authority-gray.png" alt="Delivery authority logo">
+          </div>
+          <div class="level-item">
+              <img src="./images/edge-gray.png" alt="Edge logo">
+          </div>
+          <div class="level-item">
+              <img src="./images/lucky-5-gray.png" alt="Lucky 5 logo">
+          </div>
+          <div class="level-item">
+              <img src="./images/transportation-management-gray.png" alt="Transportation management logo">
+          </div>
+        </div> -->
+
+        <div class="columns is-centered is-vcentered is-mobile customer-logos">
+          <div class="column">
+            <img src="./images/allegiant-gray.png" alt="allegiant logo" class="customer-logo">
+          </div>
+          <div class="column">
+            <img src="./images/delivery-authority-gray.png" alt="" class="customer-logo">
+          </div>
+          <div class="column">
+            <img src="./images/edge-gray.png" alt="" class="customer-logo">
+          </div>
+          <div class="column">
+            <img src="./images/lucky-5-gray.png" alt="" class="customer-logo">
+          </div>
+          <div class="column">
+            <img src="./images/transportation-management-gray.png" alt="" class="customer-logo">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ebook-banner has-background-success is-medium">
+      <div class="container has-text-centered has-text-white-ter">
+        <h3 class="is-size-4">Your Roadmap for Improving Fleet Safety</h3>
+        <p class="has-text-weight-medium">Learn 4 best practices for a safer and smarter fleet</p>
+        <a href="#" class="button is-rounded is-outlined is-white is-medium is-uppercase">Get the ebook</a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="level">
+          <div class="level-left">
+            <div class="level-item">
+              <span class="icon"><i class="fab fa-facebook-square"></i></span>
+            </div>
+            <div class="level-item">
+              <span class="icon"><i class="fab fa-linkedin"></i></span>
+            </div>
+            <div class="level-item">
+              <span class="icon"><i class="fab fa-twitter"></i></span>
+            </div>
+          </div>
+
+          <div class="level-right has-text-weight-semibold">
+            <div class="level-item">Customer login</div>
+            <div class="level-item">Site privacy</div>
+            <div class="level-item">User privacy</div>
+            <div class="level-item">Copyright</div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script type="text/javascript" src="lib/main.js"></script>
   </body>
